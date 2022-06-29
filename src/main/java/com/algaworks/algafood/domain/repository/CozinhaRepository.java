@@ -9,9 +9,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CozinhaRepository extends JpaRepository<Cozinha, Long> {
 
-	List<Cozinha> listar();
-	Cozinha buscar(Long id);
-	Cozinha salvar(Cozinha cozinha);
-	void remover(Long id);
-
 }
